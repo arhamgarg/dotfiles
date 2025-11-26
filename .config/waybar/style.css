@@ -1,0 +1,144 @@
+@define-color base     #24273a;
+@define-color mantle   #1e2030;
+@define-color crust    #181926;
+@define-color text     #cad3f5;
+@define-color subtext  #b8c0e0;
+@define-color surface  #5b6078;
+
+@define-color blue     #8aadf4;
+@define-color green    #a6da95;
+@define-color mauve    #c6a0f6;
+@define-color peach    #f5a97f;
+@define-color red      #ed8796;
+@define-color sky      #91d7e3;
+@define-color yellow   #eed49f;
+
+* {
+  font-family: "Cascadia Code", FontAwesome, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+}
+
+window#waybar {
+  background-color: @base;
+  color: @text;
+  transition: background-color 0.5s;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+#workspaces,
+#tray,
+#pulseaudio,
+#battery,
+#memory,
+#clock {
+  background-color: @mantle;
+  color: @subtext;
+  margin: 6px 0;
+  padding: 4px 18px;
+  border-radius: 10px;
+}
+
+#workspaces {
+  margin-left: 12px;
+  padding: 0 5px;
+}
+
+#workspaces button {
+  padding: 5px;
+  color: @subtext;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+#workspaces button:hover,
+#workspaces button.active {
+  background-color: @crust;
+  border-radius: 8px;
+}
+
+#workspaces button.active {
+  color: @mauve;
+}
+
+#workspaces button.urgent {
+  color: @red;
+  animation: urgent-blink 1s ease-in-out infinite alternate;
+}
+
+@keyframes urgent-blink {
+  to {
+    background-color: #e95379;
+    color: @crust;
+  }
+}
+
+#window {
+  color: @subtext;
+  font-weight: normal;
+  padding: 0 20px;
+}
+
+#tray,
+#pulseaudio,
+#battery,
+#memory {
+  margin-right: 6px;
+}
+
+#pulseaudio {
+  color: @peach;
+}
+
+#pulseaudio.muted {
+  color: @surface;
+}
+
+#battery {
+  color: @sky;
+}
+
+#battery.charging,
+#battery.plugged {
+  color: @green;
+}
+
+#battery.warning:not(.charging) {
+  color: @yellow;
+  animation: blink 0.5s linear infinite alternate;
+}
+
+#battery.critical:not(.charging) {
+  color: @red;
+  animation: blink 0.25s linear infinite alternate;
+}
+
+@keyframes blink {
+  to {
+    color: #000000;
+  }
+}
+
+#memory {
+  color: @green;
+}
+
+#clock {
+  color: @blue;
+  margin-right: 8px;
+}
+
+tooltip {
+  background-color: @mantle;
+  border-radius: 12px;
+  border: 2px solid @mauve;
+}
+
+tooltip label {
+  color: @text;
+  padding: 5px;
+}

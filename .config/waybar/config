@@ -1,0 +1,54 @@
+{
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
+    "modules-right": ["tray", "pulseaudio", "battery", "memory", "clock"],
+
+    "hyprland/workspaces": {
+        "all-outputs": true,
+        "disable-scroll": true,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "urgent": "",
+        },
+    },
+    "hyprland/window": {
+        "tooltip": false,
+    },
+    "tray": {
+        "spacing": 10,
+    },
+    "pulseaudio": {
+        "format": "{volume}% {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "default": ["", "", ""],
+        },
+        "on-click": "footclient -e pulsemixer",
+    },
+    "battery": {
+        "states": {
+            "warning": 20,
+            "critical": 5,
+        },
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{time} {icon}",
+        "format-icons": ["", "", "", "", ""],
+    },
+    "memory": {
+        "format": "{}% ",
+    },
+    "clock": {
+        "timezone": "Asia/Kolkata",
+        "tooltip-format": "<tt><big>{calendar}</big></tt>",
+        "format-alt": "{:%d/%m/%Y}",
+    },
+}

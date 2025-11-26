@@ -1,0 +1,24 @@
+[Default Applications]
+application/pdf=org.pwmt.zathura.desktop
+image/gif=imv.desktop
+image/jpeg=imv.desktop
+image/png=imv.desktop
+image/webp=imv.desktop
+video/mkv=mpv.desktop
+video/mp4=mpv.desktop
+video/webm=mpv.desktop
+x-scheme-handler/vscode=vscodium-url-handler.desktop
+x-scheme-handler/vscodium=vscodium-url-handler.desktop
+x-scheme-handler/chrome=zen.desktop
+application/x-extension-htm=zen.desktop
+application/x-extension-html=zen.desktop
+application/x-extension-shtml=zen.desktop
+application/xhtml+xml=zen.desktop
+application/x-extension-xhtml=zen.desktop
+application/x-extension-xht=zen.desktop
+
+[Added Associations]
+text/x-dbus-service=vscodium-wayland.desktop;nvim.desktop;
+x-scheme-handler/http=zen.desktop;
+x-scheme-handler/https=zen.desktop;
+x-scheme-handler/chrome=zen.desktop;
