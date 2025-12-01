@@ -68,7 +68,7 @@
 	// "fiveServer.openTerminal": false,
 	"notebook.formatOnSave.enabled": true,
 	"notebook.lineNumbers": "on",
-	// "path-intellisense.showHiddenFiles": true,
+	"path-intellisense.showHiddenFiles": true,
 	"python.analysis.autoFormatStrings": true,
 	"python.analysis.autoImportCompletions": true,
 	"python.analysis.completeFunctionParens": true,
@@ -77,9 +77,6 @@
 
 	// Biome
 	"[jsonc]": {
-		"editor.defaultFormatter": "biomejs.biome"
-	},
-	"[typescript]": {
 		"editor.defaultFormatter": "biomejs.biome"
 	}
 }
