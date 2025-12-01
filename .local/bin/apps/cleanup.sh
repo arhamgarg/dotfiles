@@ -27,7 +27,6 @@ remove_paths=(
     "$HOME/.mozilla/"
     "$HOME/.vscode-oss/"
     "$HOME/.bash_history"
-    "$HOME/.mysql_history"
     "$HOME/.python_history"
 )
 

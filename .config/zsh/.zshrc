@@ -23,8 +23,6 @@ function ya() {
     mpv --ytdl-format=bestaudio ytdl://ytsearch:"$*"
 }
 
-[ -f "/home/user/.ghcup/env" ] && . "/home/user/.ghcup/env"
-
 source ~/.config/zsh/aliases.zsh
 
 eval "$(starship init zsh)"
