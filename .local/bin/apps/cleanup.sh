@@ -25,6 +25,7 @@ remove_paths=(
     "$HOME/.local/state/mpv/"
     "$HOME/.local/state/nvim/"
     "$HOME/.mozilla/"
+    "$HOME/.npm/"
     "$HOME/.vscode-oss/"
     "$HOME/.bash_history"
     "$HOME/.python_history"
