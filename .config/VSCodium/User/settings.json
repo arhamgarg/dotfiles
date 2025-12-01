@@ -1,5 +1,4 @@
 {
-	// Telemetry
 	"workbench.cloudChanges.autoResume": "off",
 	"workbench.cloudChanges.continueOn": "off",
 	"workbench.enableExperiments": false,
@@ -9,8 +8,6 @@
 	"update.showReleaseNotes": false,
 	"telemetry.telemetryLevel": "off",
 	"telemetry.feedback.enabled": false,
-
-	// Editor
 	"diffEditor.ignoreTrimWhitespace": false,
 	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
 	"editor.codeActionsOnSave": {
@@ -41,27 +38,19 @@
 	"security.workspace.trust.untrustedFiles": "open",
 	"workbench.colorTheme": "Andromeda Italic Bordered Colorblind",
 	"workbench.iconTheme": "material-icon-theme",
-
-	// Zen Mode
 	"zenMode.centerLayout": false,
 	"zenMode.hideLineNumbers": false,
 	"zenMode.showTabs": "none",
-
-	// Smooth
 	"editor.cursorSmoothCaretAnimation": "on",
 	"workbench.list.smoothScrolling": true,
 	"editor.smoothScrolling": true,
 	"terminal.integrated.smoothScrolling": true,
 	"editor.cursorBlinking": "phase",
 	"terminal.integrated.cursorBlinking": true,
-
-	// Distraction-Free
 	"workbench.activityBar.location": "top",
 	"editor.stickyScroll.enabled": false,
 	"editor.renderWhitespace": "none",
 	"editor.renderControlCharacters": false,
-
-	// Extensions
 	"code-runner.enableAppInsights": false,
 	"code-runner.runInTerminal": true,
 	// "fiveServer.highlight": true,
@@ -73,10 +62,10 @@
 	"python.analysis.autoImportCompletions": true,
 	"python.analysis.completeFunctionParens": true,
 	"python.experiments.enabled": false,
-	"python.experiments.optOutFrom": ["All"],
-
-	// Biome
+	"python.experiments.optOutFrom": [
+		"All"
+	],
 	"[jsonc]": {
-		"editor.defaultFormatter": "biomejs.biome"
+		"editor.defaultFormatter": "vscode.json-language-features"
 	}
 }
