@@ -55,6 +55,7 @@
 	"code-runner.runInTerminal": true,
 	// "fiveServer.highlight": true,
 	// "fiveServer.openTerminal": false,
+	"haskell.manageHLS": "GHCup",
 	"notebook.formatOnSave.enabled": true,
 	"notebook.lineNumbers": "on",
 	"path-intellisense.showHiddenFiles": true,
@@ -67,5 +68,14 @@
 	],
 	"[jsonc]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
 	}
 }
