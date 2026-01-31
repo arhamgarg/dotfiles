@@ -69,6 +69,9 @@
 	"[jsonc]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
+	"[json]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
 	"[html]": {
 		"editor.defaultFormatter": "biomejs.biome"
 	},
@@ -76,6 +79,15 @@
 		"editor.defaultFormatter": "biomejs.biome"
 	},
 	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javacriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescriptreact]": {
 		"editor.defaultFormatter": "biomejs.biome"
 	}
 }
