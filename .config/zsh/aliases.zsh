@@ -26,6 +26,7 @@ alias update="sudo pacman -Syu"
 
 alias ga="git add ."
 alias gc="git clone"
+alias gcm="git commit -m"
 alias gi="git init"
 alias gl="git log"
 alias gp="git pull"
