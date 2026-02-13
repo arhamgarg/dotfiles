@@ -8,10 +8,10 @@
     "key": "alt+x",
     "command": "code-runner.run"
   },
-  {
-    "key": "alt+j",
-    "command": "java.debug.runJavaFile"
-  },
+  // {
+  //   "key": "alt+j",
+  //   "command": "java.debug.runJavaFile"
+  // },
   {
     "key": "alt+s",
     "command": "fiveServer.start",
