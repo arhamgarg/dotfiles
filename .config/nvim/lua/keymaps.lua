@@ -1,8 +1,11 @@
-local function map(m, k, v)
-  vim.keymap.set(m, k, v, { noremap = true })
-end
-
 vim.g.mapleader = " "
+
+local function map(m, k, v, opts)
+  opts = opts or {}
+  opts.noremap = true
+  opts.silent = true
+  vim.keymap.set(m, k, v, opts)
+end
 
 map("n", ";", ":")
 map("n", "<CR>", "o<esc>")
@@ -17,7 +20,11 @@ map("n", "<C-j>", "<C-w>j")
 map("n", "<C-k>", "<C-w>k")
 map("n", "<C-l>", "<C-w>l")
 
-map("n", "<leader>f", "<cmd>FZF<CR>")
+local builtin = require("telescope.builtin")
+map("n", "<leader>ff", builtin.find_files)
+map("n", "<leader>fg", builtin.live_grep)
+map("n", "<leader>fb", builtin.buffers)
+map("n", "<leader>fh", builtin.help_tags)
 
 map("n", "<leader>x", "<cmd>w<CR><cmd>RunCode<CR><C-l>")
 map("n", "<leader>q", "<cmd>RunClose<CR>")
