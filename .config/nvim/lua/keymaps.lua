@@ -20,7 +20,7 @@ map("n", "<C-j>", "<C-w>j")
 map("n", "<C-k>", "<C-w>k")
 map("n", "<C-l>", "<C-w>l")
 
-local builtin = require("telescope.builtin")
+local builtin = require "telescope.builtin"
 map("n", "<leader>ff", builtin.find_files)
 map("n", "<leader>fg", builtin.live_grep)
 map("n", "<leader>fb", builtin.buffers)
