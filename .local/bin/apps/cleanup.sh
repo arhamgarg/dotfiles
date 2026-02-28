@@ -3,6 +3,7 @@
 # Paths to be removed
 remove_paths=(
     "$HOME/.cache/"
+    "$HOME/.cline/"
     "$HOME/.config/dconf/"
     "$HOME/.config/gtk-3.0/"
     "$HOME/.config/gtk-4.0/"
