@@ -6,7 +6,7 @@ export QT_QPA_PLATFORM="wayland"
 export QT_QPA_PLATFORMTHEME=qt5ct
 export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
 
-export FZF_DEFAULT_COMMAND="fd --hidden --type f --exclude .cache --exclude FreeTube --exclude VSCodium --exclude fsh --exclude .ghcup --exclude lib --exclude site --exclude Smart\ Code\ ltd --exclude Trash --exclude .npm --exclude .pki --exclude .zen --exclude .git --exclude env --exclude node_modules --exclude pics --exclude vids"
+export FZF_DEFAULT_COMMAND="fd --hidden --type f --exclude .cache --exclude VSCodium --exclude fsh --exclude .ghcup --exclude lib --exclude site --exclude Trash --exclude .npm --exclude .pki --exclude .zen --exclude .git --exclude venv --exclude node_modules --exclude .antigravity --exclude Antigravity --exclude antigravity --exclude .gemini"
 export FZF_DEFAULT_OPTS="--tac --layout=reverse --border=rounded --info=hidden --prompt=\"Open: \""
 export MENU="bemenu -i -w -H 30 --ch 20 --cw 1 --hp 10 --tb #285577 --tf #eeeeee --nf #bbbbbb --hb #285577 --hf #eeeeee"
 
