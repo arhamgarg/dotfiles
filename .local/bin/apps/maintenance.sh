@@ -14,11 +14,9 @@ for p in "$HOME/.local/share/nvim/site/pack/default/start/"*; do
     git pull
 done
 
-# Update system and clean package cache
+# Update system and clean package cache and logs
 doas pacman -Syyu
 doas pacman -Scc
 doas paccache -rk1
-
-# Clean logs
 doas rm -f /var/log/pacman.log
 doas journalctl --vacuum-time=1d
