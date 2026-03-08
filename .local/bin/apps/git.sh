@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# CREATE
 repo=$1
 commit=$2
 
+# CREATE
 git init
 git add .
 git commit -m $commit
