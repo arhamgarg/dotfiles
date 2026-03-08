@@ -1,4 +1,4 @@
-require("conform").setup({
+require("conform").setup {
   format_on_save = {
     lsp_format = "fallback",
     timeout_ms = 500,
@@ -9,4 +9,4 @@ require("conform").setup({
     lua = { "stylua" },
     python = { "ruff" },
   },
-})
+}
