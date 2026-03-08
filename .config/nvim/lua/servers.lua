@@ -1,8 +1,8 @@
-vim.lsp.enable("clangd")
+vim.lsp.enable "clangd"
 
-vim.lsp.enable("lua_ls")
+vim.lsp.enable "lua_ls"
 
-vim.lsp.enable("pyright")
+vim.lsp.enable "pyright"
 
 vim.lsp.config("pyright", {
   settings = {
@@ -17,4 +17,4 @@ vim.lsp.config("pyright", {
   },
 })
 
-vim.lsp.enable("ruff")
+vim.lsp.enable "ruff"
