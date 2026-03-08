@@ -1,0 +1,18 @@
+[color]
+    ui = auto
+[core]
+	autocrlf = false
+	editor = nvim
+	eol = lf
+[credential "https://github.com"]
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = !/usr/bin/gh auth git-credential
+[github]
+	user = arhamgarg
+[init]
+	defaultBranch = main
+[push]
+	default = simple
+[user]
+	name = Arham Garg
