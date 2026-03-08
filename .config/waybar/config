@@ -1,7 +1,6 @@
 {
     "modules-left": ["hyprland/workspaces", "hyprland/window"],
     "modules-right": ["tray", "pulseaudio", "battery", "memory", "clock"],
-
     "hyprland/workspaces": {
         "all-outputs": true,
         "disable-scroll": true,
@@ -11,7 +10,6 @@
             "2": "",
             "3": "",
             "4": "",
-            "5": "",
             "urgent": "",
         },
     },
