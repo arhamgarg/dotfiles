@@ -3,7 +3,6 @@
 # Paths to be removed
 remove_paths=(
     "$HOME/.cache/"
-    "$HOME/.cline/"
     "$HOME/.config/dconf/"
     "$HOME/.config/gtk-3.0/"
     "$HOME/.config/gtk-4.0/"
@@ -12,7 +11,6 @@ remove_paths=(
     "$HOME/.config/nnn/"
     "$HOME/.config/procps/"
     "$HOME/.config/pulse/"
-    "$HOME/Documents/"
     "$HOME/Downloads/"
     "$HOME/.local/share/applications/"
     "$HOME/.local/share/flatpak/"
